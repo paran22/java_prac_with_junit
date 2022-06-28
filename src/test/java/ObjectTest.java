@@ -23,4 +23,5 @@ public class ObjectTest {
     void hashCodeTest() {
         Assertions.assertThat(System.identityHashCode(v1)).isNotEqualTo(System.identityHashCode(v2));
     }
+
 }
